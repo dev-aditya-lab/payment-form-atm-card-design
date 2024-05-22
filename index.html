@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Payment form</title>
+  </head>
+  <body>
+    <form action="">
+      <div class="main">
+        <div class="white-box">
+          <div class="card">
+            <div class="top">
+              <h2>Payment details</h2>
+              <img src="img/visa.webp" alt="" id="visa-logo" />
+            </div>
+            <img src="img/chip.png" alt="" id="chip" />
+            <p class="card-no-text">Card number</p>
+            <input
+              type="number"
+              id="card-number"
+              name="name"
+              required
+              minlength="16"
+              maxlength="16"
+              size="16"
+              placeholder="1234  5678  9012  3456"
+            />
+
+            <input
+              type="text"
+              id="holder-name"
+              name="name"
+              required
+              minlength="30"
+              maxlength="30"
+              size="30"
+              placeholder="CARD HOLDER NAME"
+            />
+
+            <div class="mid-text">
+              <p class=".mid-text">Expiration</p>
+              <p class="cvv-text mid-text">CVV</p>
+            </div>
+            <div class="bottom">
+              <select required name="month" id="month">
+                <option>Month</option>
+                <option value="">01</option>
+                <option value="">02</option>
+                <option value="">03</option>
+                <option value="">04</option>
+                <option value="">05</option>
+                <option value="">06</option>
+                <option value="">07</option>
+                <option value="">08</option>
+                <option value="">09</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+              </select>
+              <select name="year" id="year" required>
+                <option>2023</option>
+                <option value="">2024</option>
+                <option value="">2025</option>
+                <option value="">2026</option>
+                <option value="">2027</option>
+                <option value="">2028</option>
+                <option value="">2029</option>
+                <option value="">2031</option>
+                <option value="">2032</option>
+                <option value="">2033</option>
+                <option value="">2034</option>
+                <option value="">2035</option>
+                <option value="">2036</option>
+                <option value="">2037</option>
+                <option value="">2038</option>
+                <option value="">2039</option>
+                <option value="">2040</option>
+                <option value="">2041</option>
+                <option value="">2042</option>
+                <option value="">2043</option>
+                <option value="">2044</option>
+                <option value="">2045</option>
+                <option value="">2046</option>
+                <option value="">2047</option>
+                <option value="">2048</option>
+                <option value="">2049</option>
+                <option value="">2050</option>
+              </select>
+              <input
+                type="number"
+                id="cvv"
+                name="name"
+                required
+                minlength="4"
+                maxlength="4"
+                size="4"
+                placeholder="XXXX"
+              />
+            </div>
+          </div>
+        </div>
+      
+    </div>
+    </form>
+  </body>
+</html>
